@@ -1,0 +1,3 @@
+[submodule "resources/reservationAppFrontend"]
+	path = resources/reservationAppFrontend
+	url = https://github.com/moaoa/reservationAppFrontend.git
