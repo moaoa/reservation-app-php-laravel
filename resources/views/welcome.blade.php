@@ -22,10 +22,9 @@
     </head>
     <body class="antialiased">
         <div id="example"></div>
-        <div id="root"></div>
-        
-            <script src="/js/app.js">
+        <!-- <div id="root"></div> -->
+        <script src="/js/app.js">
 
-            </script>
+        </script>
     </body>
 </html>
