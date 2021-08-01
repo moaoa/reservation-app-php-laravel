@@ -21,6 +21,8 @@ class ReservationController extends Controller
         }
     }
     function showDate(Request $req){
+     try {
+         
         $startDate = $req->from;
         $endDate = $req->to;
         
@@ -36,6 +38,9 @@ class ReservationController extends Controller
         )->orderBy('hotel_id')
         ->get();
         return  $rooms;
+     } catch (\Throwable $th) {
+         return response(500, ['msg' => $th]);
+     }
     }
     function store(Request $req){
         $newReservation = new Reservation();
