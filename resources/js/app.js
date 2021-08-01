@@ -13,4 +13,4 @@ require("./bootstrap");
  */
 
 // require("./components/Example");
-require("./client2/src/index");
+require("./client/src/index");
