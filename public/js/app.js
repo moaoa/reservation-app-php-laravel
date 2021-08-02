@@ -2348,7 +2348,7 @@ function AddRoom() {
           required: true,
           name: "price_per_night",
           autoComplete: "false",
-          label: "Room price_per_night per night"
+          label: "Room price"
         })
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_material_ui_core_TextField__WEBPACK_IMPORTED_MODULE_8__.default, {
@@ -2437,7 +2437,8 @@ function Home() {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
       style: {
         display: 'flex',
-        marginTop: "2rem"
+        marginTop: "2rem",
+        flexWrap: 'wrap'
       },
       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_components_DateInput_DateInput__WEBPACK_IMPORTED_MODULE_2__.default, {
         dateSetter: (0,_state_actions__WEBPACK_IMPORTED_MODULE_5__.setFromDate)(stateContainer),
@@ -2453,15 +2454,15 @@ function Home() {
         label: "capaciy",
         type: "number",
         variant: "outlined",
+        style: {
+          margin: '0 1rem 0.5rem 0'
+        },
         helperText: stateContainer.state.error.errorText
       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_8__.default, {
         onClick: function onClick() {
           return (0,_state_actions__WEBPACK_IMPORTED_MODULE_5__.getAvailableRooms)(stateContainer);
         },
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_9__.default, {
-          style: {
-            marginLeft: '1rem'
-          },
           variant: "contained",
           color: "primary",
           children: "Search"
@@ -2470,6 +2471,9 @@ function Home() {
     }), filteredList.length ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__.default, {
       varaint: "subtitle1",
       children: ["Available rooms : ", filteredList.length]
+    }) : "", !stateContainer.state.auth.user ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__.default, {
+      varaint: "subtitle1",
+      children: "please SignUp to Book rooms "
     }) : "", /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsx)("div", {
       className: "grid",
       children: filteredList.map(function (room) {
@@ -2479,7 +2483,7 @@ function Home() {
           price: room.price_per_night,
           capacity: room.capacity,
           id: room.id
-        });
+        }, 'room' + room.id);
       })
     })]
   });
@@ -3160,7 +3164,7 @@ function MediaCard(_ref) {
         })]
       })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_10__.default, {
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_11__.default, {
+      children: stateContainer.state.auth.user && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_11__.default, {
         size: "small",
         color: "primary",
         onClick: function onClick() {
@@ -3214,6 +3218,9 @@ function DatePickers(_ref) {
   var stateContainer = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_App__WEBPACK_IMPORTED_MODULE_1__.Context);
   var classes = useStyles();
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("form", {
+    style: {
+      marginBottom: '1rem'
+    },
     className: classes.container,
     noValidate: true,
     children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_material_ui_core_TextField__WEBPACK_IMPORTED_MODULE_4__.default, {
@@ -3499,7 +3506,7 @@ function BasicTable(_ref) {
               align: "right",
               children: row.room_number
             })]
-          }, row.name);
+          }, row.name + row.start_date + row.end_date + row.room_number);
         })
       })]
     })
@@ -3528,9 +3535,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(react__WEBPACK_IMPORTED_MODULE_0__.StrictMode, {
-  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_App__WEBPACK_IMPORTED_MODULE_3__.default, {})
-}), document.getElementById('root')); // If you want to start measuring performance in your app, pass a function
+react_dom__WEBPACK_IMPORTED_MODULE_1__.render( /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_5__.jsx)(_App__WEBPACK_IMPORTED_MODULE_3__.default, {}), document.getElementById("root")); // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
@@ -3810,10 +3815,6 @@ var intialState = {
 var rootReducer = function rootReducer() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : intialState;
   var action = arguments.length > 1 ? arguments[1] : undefined;
-  console.log("state logger");
-  console.log({
-    action: action
-  });
 
   switch (action.type) {
     case _actions__WEBPACK_IMPORTED_MODULE_1__.actionTypes.SET_AVAILABLE_ROOMS:

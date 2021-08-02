@@ -27,6 +27,7 @@ class ReservationController extends Controller
         $endDate = $req->to;
         
         $rooms = DB::table('rooms')
+        ->distinct()
         ->join('hotels', 'rooms.hotel_id', '=', 'hotels.id')
         ->select('rooms.id', 'rooms.hotel_id', 'rooms.room_number', 'rooms.price_per_night', 'rooms.capacity', 'hotels.name as hotel_name')
         ->whereNotIn('rooms.id', 
@@ -39,7 +40,7 @@ class ReservationController extends Controller
         ->get();
         return  $rooms;
      } catch (\Throwable $th) {
-         return response(500, ['msg' => $th]);
+         return response(['msg' => $th], 500);
      }
     }
     function store(Request $req){
