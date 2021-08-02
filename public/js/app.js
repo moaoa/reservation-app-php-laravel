@@ -1916,20 +1916,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./App.css */ "./resources/js/client/src/App.css");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./resources/js/client/node_modules/react/index.js");
-/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! react-toastify */ "./resources/js/client/node_modules/react-toastify/dist/react-toastify.esm.js");
+/* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! react-toastify */ "./resources/js/client/node_modules/react-toastify/dist/react-toastify.esm.js");
 /* harmony import */ var react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-toastify/dist/ReactToastify.css */ "./resources/js/client/node_modules/react-toastify/dist/ReactToastify.css");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-router-dom */ "./resources/js/client/node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! react-router-dom */ "./resources/js/client/node_modules/react-router/esm/react-router.js");
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @material-ui/core */ "./resources/js/client/node_modules/@material-ui/core/esm/ListItem/ListItem.js");
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @material-ui/core */ "./resources/js/client/node_modules/@material-ui/core/esm/ListItemIcon/ListItemIcon.js");
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @material-ui/core */ "./resources/js/client/node_modules/@material-ui/core/esm/ListItemText/ListItemText.js");
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @material-ui/core */ "./resources/js/client/node_modules/@material-ui/core/esm/List/List.js");
-/* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @material-ui/icons */ "./resources/js/client/node_modules/@material-ui/icons/esm/AddBox.js");
-/* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @material-ui/icons */ "./resources/js/client/node_modules/@material-ui/icons/esm/HomeOutlined.js");
-/* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @material-ui/icons */ "./resources/js/client/node_modules/@material-ui/icons/esm/Hotel.js");
-/* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @material-ui/icons */ "./resources/js/client/node_modules/@material-ui/icons/esm/ListRounded.js");
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @material-ui/core */ "./resources/js/client/node_modules/@material-ui/core/esm/styles/makeStyles.js");
-/* harmony import */ var _material_ui_core_Drawer__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @material-ui/core/Drawer */ "./resources/js/client/node_modules/@material-ui/core/esm/Drawer/Drawer.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! react-router-dom */ "./resources/js/client/node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! react-router-dom */ "./resources/js/client/node_modules/react-router/esm/react-router.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @material-ui/core */ "./resources/js/client/node_modules/@material-ui/core/esm/ListItem/ListItem.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @material-ui/core */ "./resources/js/client/node_modules/@material-ui/core/esm/ListItemIcon/ListItemIcon.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @material-ui/core */ "./resources/js/client/node_modules/@material-ui/core/esm/ListItemText/ListItemText.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @material-ui/core */ "./resources/js/client/node_modules/@material-ui/core/esm/List/List.js");
+/* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @material-ui/icons */ "./resources/js/client/node_modules/@material-ui/icons/esm/AddBox.js");
+/* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @material-ui/icons */ "./resources/js/client/node_modules/@material-ui/icons/esm/HomeOutlined.js");
+/* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @material-ui/icons */ "./resources/js/client/node_modules/@material-ui/icons/esm/Hotel.js");
+/* harmony import */ var _material_ui_icons__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @material-ui/icons */ "./resources/js/client/node_modules/@material-ui/icons/esm/ListRounded.js");
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @material-ui/core */ "./resources/js/client/node_modules/@material-ui/core/esm/styles/makeStyles.js");
+/* harmony import */ var _material_ui_core_Drawer__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @material-ui/core/Drawer */ "./resources/js/client/node_modules/@material-ui/core/esm/Drawer/Drawer.js");
 /* harmony import */ var _Pages_RegisterPage_RegisterPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Pages/RegisterPage/RegisterPage */ "./resources/js/client/src/Pages/RegisterPage/RegisterPage.jsx");
 /* harmony import */ var _Pages_Login_Login__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Pages/Login/Login */ "./resources/js/client/src/Pages/Login/Login.jsx");
 /* harmony import */ var _Pages_Hotels_HotelsPage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Pages/Hotels/HotelsPage */ "./resources/js/client/src/Pages/Hotels/HotelsPage.jsx");
@@ -1942,7 +1942,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Pages_MyReservationsPage_MyReservations__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Pages/MyReservationsPage/MyReservations */ "./resources/js/client/src/Pages/MyReservationsPage/MyReservations.jsx");
 /* harmony import */ var _Pages_AddHotel_AddHotel__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Pages/AddHotel/AddHotel */ "./resources/js/client/src/Pages/AddHotel/AddHotel.jsx");
 /* harmony import */ var _Pages_AddRoom_AddRoom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./Pages/AddRoom/AddRoom */ "./resources/js/client/src/Pages/AddRoom/AddRoom.jsx");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react/jsx-runtime */ "./resources/js/client/node_modules/react/jsx-runtime.js");
+/* harmony import */ var _state_actions__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./state/actions */ "./resources/js/client/src/state/actions.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react/jsx-runtime */ "./resources/js/client/node_modules/react/jsx-runtime.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -1979,8 +1980,9 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+
 var Context = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createContext();
-var useStyles = (0,_material_ui_core__WEBPACK_IMPORTED_MODULE_15__.default)({
+var useStyles = (0,_material_ui_core__WEBPACK_IMPORTED_MODULE_16__.default)({
   list: {
     width: 250
   },
@@ -2009,11 +2011,11 @@ function App() {
     axios__WEBPACK_IMPORTED_MODULE_10___default().get("/sanctum/csrf-cookie")["catch"](console.log);
   }, []);
 
-  var AdminActions = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.Fragment, {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_16__.default, {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_18__.default, {})
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Link, {
+  var AdminActions = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_18__.default, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_19__.default, {})
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_20__.Link, {
         className: classes.listItem,
         to: "/add-hotel",
         onClick: function onClick() {
@@ -2021,14 +2023,14 @@ function App() {
             return !state;
           });
         },
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_20__.default, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_21__.default, {
           primary: "add hotel"
         })
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_16__.default, {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_18__.default, {})
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Link, {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_18__.default, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_19__.default, {})
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_20__.Link, {
         className: classes.listItem,
         to: "/add-room",
         onClick: function onClick() {
@@ -2036,36 +2038,36 @@ function App() {
             return !state;
           });
         },
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_20__.default, {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_21__.default, {
           primary: "add Room"
         })
       })]
     })]
   });
 
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(Context.Provider, {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(Context.Provider, {
     value: {
       state: state,
       dispatch: dispatch
     },
-    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.BrowserRouter, {
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)("div", {
+    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_20__.BrowserRouter, {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)("div", {
         className: "App",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_toastify__WEBPACK_IMPORTED_MODULE_21__.ToastContainer, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_components_Header_Header__WEBPACK_IMPORTED_MODULE_8__.default, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_toastify__WEBPACK_IMPORTED_MODULE_22__.ToastContainer, {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_components_Header_Header__WEBPACK_IMPORTED_MODULE_8__.default, {
           open: setIsOpen
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core_Drawer__WEBPACK_IMPORTED_MODULE_22__.default, {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core_Drawer__WEBPACK_IMPORTED_MODULE_23__.default, {
           className: "myDrawer",
           open: isOpen,
           onClose: function onClose() {
             return setIsOpen(false);
           },
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)("div", {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)("div", {
             className: classes.list,
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_23__.default, {
-              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_16__.default, {
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_24__.default, {})
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Link, {
+            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_24__.default, {
+              children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_18__.default, {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_25__.default, {})
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_20__.Link, {
                   className: classes.listItem,
                   to: "/",
                   onClick: function onClick() {
@@ -2073,14 +2075,14 @@ function App() {
                       return !state;
                     });
                   },
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_20__.default, {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_21__.default, {
                     primary: "Home"
                   })
                 })]
-              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_16__.default, {
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_25__.default, {})
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Link, {
+              }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_18__.default, {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_26__.default, {})
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_20__.Link, {
                   className: classes.listItem,
                   to: "/hotels",
                   onClick: function onClick() {
@@ -2088,14 +2090,14 @@ function App() {
                       return !state;
                     });
                   },
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_20__.default, {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_21__.default, {
                     primary: "Hotels"
                   })
                 })]
-              }), (_state$auth$user = state.auth.user) !== null && _state$auth$user !== void 0 && _state$auth$user.admin ? AdminActions : null, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_16__.default, {
-                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_26__.default, {})
-                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_19__.Link, {
+              }), (_state$auth$user = state.auth.user) !== null && _state$auth$user !== void 0 && _state$auth$user.admin ? AdminActions : null, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_18__.default, {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_27__.default, {})
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_20__.Link, {
                   className: classes.listItem,
                   to: "/myreservations",
                   onClick: function onClick() {
@@ -2103,40 +2105,55 @@ function App() {
                       return !state;
                     });
                   },
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_20__.default, {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_21__.default, {
                     primary: "my Rservations"
                   })
                 })]
-              })]
+              }), state.auth.user ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(_material_ui_core__WEBPACK_IMPORTED_MODULE_17__.default, {
+                children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_18__.default, {
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_icons__WEBPACK_IMPORTED_MODULE_27__.default, {})
+                }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_material_ui_core__WEBPACK_IMPORTED_MODULE_21__.default, {
+                  onClick: function onClick() {
+                    setIsOpen(function (state) {
+                      return !state;
+                    });
+                    (0,_state_actions__WEBPACK_IMPORTED_MODULE_14__.logOutUser)({
+                      dispatch: dispatch,
+                      state: state
+                    });
+                  },
+                  primary: "LogOut"
+                })]
+              }) : null]
             })
           })
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_27__.Switch, {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_27__.Route, {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsxs)(react_router_dom__WEBPACK_IMPORTED_MODULE_28__.Switch, {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_28__.Route, {
           path: "/login",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_Pages_Login_Login__WEBPACK_IMPORTED_MODULE_4__.default, {})
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_27__.Route, {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_Pages_Login_Login__WEBPACK_IMPORTED_MODULE_4__.default, {})
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_28__.Route, {
           path: "/hotelRooms/:hotelId",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_Pages_HotelRooms_HotelRooms__WEBPACK_IMPORTED_MODULE_7__.default, {})
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_27__.Route, {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_Pages_HotelRooms_HotelRooms__WEBPACK_IMPORTED_MODULE_7__.default, {})
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_28__.Route, {
           path: "/register",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_Pages_RegisterPage_RegisterPage__WEBPACK_IMPORTED_MODULE_3__.default, {})
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_27__.Route, {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_Pages_RegisterPage_RegisterPage__WEBPACK_IMPORTED_MODULE_3__.default, {})
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_28__.Route, {
           exact: true,
           path: "/",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_Pages_Home_Home__WEBPACK_IMPORTED_MODULE_6__.default, {})
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_27__.Route, {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_Pages_Home_Home__WEBPACK_IMPORTED_MODULE_6__.default, {})
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_28__.Route, {
           path: "/hotels",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_Pages_Hotels_HotelsPage__WEBPACK_IMPORTED_MODULE_5__.default, {})
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_27__.Route, {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_Pages_Hotels_HotelsPage__WEBPACK_IMPORTED_MODULE_5__.default, {})
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_28__.Route, {
           path: "/myreservations",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_Pages_MyReservationsPage_MyReservations__WEBPACK_IMPORTED_MODULE_11__.default, {})
-        }), ((_state$auth$user2 = state.auth.user) === null || _state$auth$user2 === void 0 ? void 0 : _state$auth$user2.admin) && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_27__.Route, {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_Pages_MyReservationsPage_MyReservations__WEBPACK_IMPORTED_MODULE_11__.default, {})
+        }), ((_state$auth$user2 = state.auth.user) === null || _state$auth$user2 === void 0 ? void 0 : _state$auth$user2.admin) && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_28__.Route, {
           path: "/add-hotel",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_Pages_AddHotel_AddHotel__WEBPACK_IMPORTED_MODULE_12__.default, {})
-        }), ((_state$auth$user3 = state.auth.user) === null || _state$auth$user3 === void 0 ? void 0 : _state$auth$user3.admin) && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_27__.Route, {
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_Pages_AddHotel_AddHotel__WEBPACK_IMPORTED_MODULE_12__.default, {})
+        }), ((_state$auth$user3 = state.auth.user) === null || _state$auth$user3 === void 0 ? void 0 : _state$auth$user3.admin) && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(react_router_dom__WEBPACK_IMPORTED_MODULE_28__.Route, {
           path: "/add-room",
-          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_14__.jsx)(_Pages_AddRoom_AddRoom__WEBPACK_IMPORTED_MODULE_13__.default, {})
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_15__.jsx)(_Pages_AddRoom_AddRoom__WEBPACK_IMPORTED_MODULE_13__.default, {})
         })]
       })]
     })
@@ -3597,7 +3614,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "setFromDate": () => (/* binding */ setFromDate),
 /* harmony export */   "setToDate": () => (/* binding */ setToDate),
 /* harmony export */   "registerUserHOC": () => (/* binding */ registerUserHOC),
-/* harmony export */   "loginUserHOC": () => (/* binding */ loginUserHOC)
+/* harmony export */   "loginUserHOC": () => (/* binding */ loginUserHOC),
+/* harmony export */   "logOutUser": () => (/* binding */ logOutUser)
 /* harmony export */ });
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./resources/js/client/node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
@@ -3610,6 +3628,7 @@ var actionTypes = {
   SET_AVAILABLE_ROOMS: "SET_AVAILABLE_ROOMS",
   SET_HOTELS: "SET_HOTELS",
   SET_USER: "SET_USER",
+  LOGOUT_USER: "LOGOUT_USER",
   SET_USER_RESERVATIONS: "SET_USER_RESERVATIONS",
   SET_AUTH_ERROR: "SET_AUTH_ERROR"
 };
@@ -3769,6 +3788,11 @@ var loginUserHOC = function loginUserHOC(context) {
     });
   };
 };
+var logOutUser = function logOutUser(context) {
+  context.dispatch({
+    type: actionTypes.LOGOUT_USER
+  });
+};
 
 /***/ }),
 
@@ -3859,6 +3883,12 @@ var rootReducer = function rootReducer() {
     case _actions__WEBPACK_IMPORTED_MODULE_1__.actionTypes.SET_USER:
       return _objectSpread(_objectSpread({}, state), {}, {
         auth: action.data
+      });
+
+    case _actions__WEBPACK_IMPORTED_MODULE_1__.actionTypes.LOGOUT_USER:
+      return _objectSpread(_objectSpread({}, state), {}, {
+        auth: intialState.auth,
+        myReservations: []
       });
 
     case _actions__WEBPACK_IMPORTED_MODULE_1__.actionTypes.SET_USER_RESERVATIONS:

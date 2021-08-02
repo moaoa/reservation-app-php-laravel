@@ -63,7 +63,9 @@ class ReservationController extends Controller
             $userReservations = DB::table('reservations')
             ->join('rooms', 'reservations.room_id', '=', 'rooms.id')
             ->join('hotels', 'rooms.hotel_id', '=', 'hotels.id')
-            ->select('reservations.*', 'hotels.name', 'rooms.room_number')->get();
+            ->where('user_id', $userId)
+            ->select('reservations.*', 'hotels.name', 'rooms.room_number')
+            ->get();
 
             return $userReservations;
         } catch (\Throwable $th) {
